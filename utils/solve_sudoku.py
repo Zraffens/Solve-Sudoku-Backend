@@ -196,7 +196,7 @@ class solve_sudoku():
         cv2.imshow('Solved', warped_image)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
-        # plt.imshow(warped_image)
+        plt.imshow(warped_image)
         save_dir= "images/solved_puzzle.png"
         cv2.imwrite(save_dir, warped_image)
         print(f'Solved image saved at: {save_dir}')
